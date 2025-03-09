@@ -56,4 +56,16 @@
     }
 }
 @media screen and (max-width: 550px) {
+  .about__text {
+    width: 100%;
+  }
+
+  .about p {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .about__img-container {
+    margin-bottom: 0;
+  }
 }
