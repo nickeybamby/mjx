@@ -1,0 +1,125 @@
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+}
+
+.header-content h1 {
+    font-family: var(--font-family);
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-btn {
+    margin-top: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: var(--color-subtext);
+    font-family: var(--font-family);
+
+    font-weight: 600;
+    background: var(--gradient-btn);
+    border: 2px solid var(--color-text);
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.siren {
+    width: 40px;
+}
+
+
+@media screen and (max-width: 1050px) { 
+    .header{
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin: 0 0 3rem;
+    }
+
+    .header-image {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 650px) { 
+    .header h1 {
+        margin-top: 50px;
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .header-content__people {
+        flex-direction: column;
+    }
+    
+    .header-content__people p {
+        margin: 0;
+    }
+    
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
