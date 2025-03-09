@@ -12,13 +12,13 @@ const Footer = () => {
         </div>
         <div className="footer-links_div">
           <h4>Social Links</h4>
-          <p> <a href="https://t.me/Gary_TheTrader" rel="noopener noreferrer" target="_blank">Telegram Channel</a></p>
-          <p><a href="https://t.me/Gary_GoldTrader" rel="noopener noreferrer" target="_blank">Telegram Admin</a></p>
+          <p> <a href="#" rel="noopener noreferrer" target="_blank">Telegram Channel</a></p>
+          <p><a href="#" rel="noopener noreferrer" target="_blank">Telegram Admin</a></p>
           <p> <a href=" " rel="noopener noreferrer" target="_blank">Instagram</a></p>
         </div>
         <div className="footer-links_div">
           <h4>Get in Touch</h4>
-          <p><a href="https://t.me/Gary_GoldTrader" rel="noopener noreferrer" target="_blank">Chat With Admin</a></p>
+          <p><a href="#" rel="noopener noreferrer" target="_blank">Whatsapp</a></p>
         </div>
       </div>
       <div className="footer-copyright">
