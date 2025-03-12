@@ -6,9 +6,7 @@ const Services = () => {
   return (
     <>
       <div id="services"></div>
-      <section
-        className="services w-full h-full items-center justify-center "
-      >
+      <section className="services w-full h-full items-center justify-center ">
         <h2 className="gradient__text text-2xl"> Services</h2>
         <p className="subtext">Hover to read more about services we offer</p>
 
@@ -24,9 +22,7 @@ const Services = () => {
                   <h3>
                     Web3 Marketing <br />
                     <span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Commodi porro, velit non vero deleniti laborum iste
-                      assumenda maxime inventore minus.
+                      We help drive engagement and growth with our Web3 marketing  strategies—community building, influencer outreach, and data-driven campaigns tailored for blochain projects.
                     </span>
                   </h3>
                 </div>
@@ -50,9 +46,7 @@ const Services = () => {
                   <h3>
                     Brand Strategist <br />
                     <span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Commodi porro, velit non vero deleniti laborum iste
-                      assumenda maxime inventore minus.
+                      We help Web3 brands define their identity, craft compelling narratives, and establish a strong digital presence in the decentralized space.
                     </span>
                   </h3>
                 </div>
@@ -76,9 +70,7 @@ const Services = () => {
                   <h3>
                     Crypto Xchange <br />
                     <span>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Commodi porro, velit non vero deleniti laborum iste
-                      assumenda maxime inventore minus.
+                      We offer secure, fast, and trasparent crypto trading. Buy, sell, and swap any digital asset with ease on a user-friendly platform.
                     </span>
                   </h3>
                 </div>

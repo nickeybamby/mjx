@@ -14,7 +14,7 @@ const About = () => {
                 <h4 className="subtext text-lg font-medium">Michael John (CEO)</h4>
             </div>
             <div className="about__text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit culpa laboriosam beatae, unde maiores, perferendis sint veritatis aperiam adipisci natus necessitatibus fugit accusamus quam quod amet quaerat tenetur ad! Nulla sint, obcaecati impedit aliquid accusamus libero laborum vero voluptate fuga eaque, rerum porro praesentium !</p>
+                <p>Michael John is a visionary Web3 brand strategist and crypto marketer expert with a deep passion for blockchain innovation. With years of experience in the space, he has successfully helped numerous blockchain startups and established projects build their brand, expand their community, and drive adoption in the rapidly evolving digital space. <br /> <br /> Currently, Michael is leading the marketing efforts for Meta Whale, a groundbreaking Web3 project redefining dital asset ownership and community-driven ecosystems. Through strategic partnership, influencer collaborations, and data-driven marketing campaigns, he is positioning Meta Whale as a dominant force in the metaverse and DeFi space. <br /><br />At MJXchange Michael brings his expertise to help crypto brands establish their presence, craft compelling narratives, and scale in the evergrowing blockchain industry. His result-driven approach ensures that Web3 businesses not only gain visibility but also foster meaningful engagement with their target audience.</p>
             </div>
         </div>
       </section>
