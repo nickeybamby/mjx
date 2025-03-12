@@ -1,13 +1,13 @@
 import React from "react";
 import "./footer.css";
-// import logo from "../../assets/garygold.svg";
+import logo from "../../assets/images/mjxLogo.svg";
 
 const Footer = () => {
   return (
     <div className="footer section__padding">
       <div className="footer-links">
         <div className="footer-links_logo">
-          {/* <img src={''} alt="logo" /> */}
+          <img src={logo} alt="logo" />
           <p>Connecting Dreams, Trading Success.</p>
         </div>
         <div className="footer-links_div">
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <p>© 2025 MJ Xchange. All rights reserved. | Powered by <a href="https://www.clinicraftstudios.xyz" rel="noopener noreferrer" target="_blank" className="cst">CS Tech</a></p>
+        <p>© {new Date().getFullYear()} MJXchange. All rights reserved. | Powered by <a href="https://www.clinicraftstudios.xyz" rel="noopener noreferrer" target="_blank" className="cst">CS Tech</a></p>
       </div>
     </div>
   );

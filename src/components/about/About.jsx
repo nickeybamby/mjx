@@ -1,5 +1,5 @@
 import "./about.css";
-import mj from '../../assets/images/Nick.png'
+import mj from '../../assets/images/mj.png'
 
 const About = () => {
   return (
@@ -10,8 +10,8 @@ const About = () => {
 
         <div className="about__container section__padding">
             <div className="about__img-container ">
-                <img src={mj} alt="micheal john" />
-                <h4 className="subtext text-lg font-medium">Micheal John (CEO)</h4>
+                <img src={mj} alt="michael john" />
+                <h4 className="subtext text-lg font-medium">Michael John (CEO)</h4>
             </div>
             <div className="about__text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit culpa laboriosam beatae, unde maiores, perferendis sint veritatis aperiam adipisci natus necessitatibus fugit accusamus quam quod amet quaerat tenetur ad! Nulla sint, obcaecati impedit aliquid accusamus libero laborum vero voluptate fuga eaque, rerum porro praesentium !</p>
