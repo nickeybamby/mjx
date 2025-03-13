@@ -33,7 +33,7 @@ const Services = () => {
                     <span>
                       We help drive engagement and growth with our Web3
                       marketing strategies—community building, influencer
-                      outreach, and data-driven campaigns tailored for blokchain
+                      outreach, and data-driven campaigns tailored for blockchain
                       projects.
                     </span>
                   </h3>
@@ -100,7 +100,7 @@ const Services = () => {
                   <h3>
                     Crypto Xchange <br />
                     <span>
-                      We offer secure, fast, and trasparent crypto trading. Buy,
+                      We offer secure, fast, and transparent crypto trading. Buy,
                       sell, and swap any digital asset with ease on a
                       user-friendly platform.
                     </span>
